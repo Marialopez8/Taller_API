@@ -1,8 +1,5 @@
 const marvel={
     render:()=>{
-        // const urlAPI='https://gateway.marvel.com/v1/public/characters?ts=1&apikey=b2dfbab623af21346250392176e9b972&hash=b9ba02a8c71af91c7fb810fd38286e8a';
-        // const urlAPI='https://gateway.marvel.com:443/v1/public/characters/77/comics?ts=1&apikey=b2dfbab623af21346250392176e9b972&hash=b9ba02a8c71af91c7fb810fd38286e8a';
-        // const urlAPI='https://gateway.marvel.com:443/v1/public/characters/9/events?ts=1&apikey=b2dfbab623af21346250392176e9b972&hash=b9ba02a8c71af91c7fb810fd38286e8a';
         const urlAPI='https://gateway.marvel.com:443/v1/public/creators?ts=1&apikey=b2dfbab623af21346250392176e9b972&hash=b9ba02a8c71af91c7fb810fd38286e8a'
         const container=document.querySelector('#marvel-row');
         let contentHTML= '';
